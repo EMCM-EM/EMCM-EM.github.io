@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Einstein</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bolder" href="#page-top">Einstein</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#trainingsites">Training Sites</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#clinicalcurriculum">Clinical Curriculum</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#didacticcurriculum">Didactic Curriculum</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#wellness">Res-Life</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#statements">Statements</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="Faculty/faculty.html">Faculty</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="Residents/residents.html">Residents</a></li>
+                        <!--
+                        <li class="nav-item dropdown"><a class="nav-link me-lg-3 dropdown-toggle" href="#" data-bs-toggle="dropdown">People</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item dropdown-item"><a class="nav-link me-lg-3" href="Faculty/faculty.html">Faculty</a></li>
+                                <li class="nav-item dropdown-item"><a class="nav-link me-lg-3" href="Residents/residents.html">Residents</a></li>
+                            </ul>
+                        </li>
+                        -->
+                    </ul>
+                    <!--<button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <span class="small">Send Feedback</span>
+                        </span>
+                    </button>-->
+                </div>
+            </div>
+        </nav>
+        <!-- Main Einstein Logo-->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-12">
+                        <h1 class="display-2 lh-1 mb-3 text-center font-weight-bolder">Einstein Medical Center Montgomery</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Masthead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <!--<h1 class="display-1 lh-1 mb-3 text-justify font-weight-bold">Einstein Medical Center Montgomery </h1>-->
+                            <p class="lead fw-normal text-muted mb-5">With <span class="k-yellow">humanity </span>, <span class="k-yellow">humility</span> and <span class="k-yellow">honor</span>, to heal by providing exceptionally intelligent and responsive healthcare and education for as many as we can reach.</p>
+                            <!--Residency Blog Button is Hidden -->
+                            <!--<div class="d-flex flex-column flex-lg-row align-items-center">
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="ResidencyBlog/blog.html"><img class="app-badge rounded" src="assets/img/Untitled.svg" alt="..." /></a>
+                            </div>-->
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="https://twitter.com/EMCM_EM"><img class="img-responsive app-badge rounded" src="assets/img/Untitled2.svg" alt="..." /></a>
+                            </div>
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="https://instagram.com"><img class="img-responsive app-badge rounded" src="assets/img/Untitled3.svg" alt="..." /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                            <!--This is blank section is intentionally left empty to allow for the logo image to be properly sized. There is probably a better way to do this, but after spending a few hours trying to figure it out. This was the simplest solution I came up with....If this section is deleted and an offset-1 class is added into the next block, the image doesn't properly resize on mobile devices.-->
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="logo-image">
+                            <img src="assets/img/EinsteinLogoCircle.png" alt="Einstein Montgomery EM Logo" class="img-fluid">
+                        </div>
+
+                        <!-- Masthead device mockup feature
+                        <div class="masthead-device-mockup">
+                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                        <stop class="gradient-start-color" offset="0%"></stop>
+                                        <stop class="gradient-end-color" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="50"></circle></svg>
+                            <svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg>
+                            <svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <!-- PUT CONTENTS HERE:
+                                        <!-- * * This can be a video, image, or just about anything else.
+                                        <!-- * * Set the max width of your media to 100% and the height to
+                                        <!-- * * 100% like the demo example below.
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- A residency of the Albert Einstein Healthcare Network-->
+        <aside  id="trainingsites" class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="class h2 fs-1 text-white mb-4">A Residency of the Albert Einstein Healthcare Network </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Training Sites section-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-12 mb-0 mb-lg-0">
+                        <h2 class="display-5 lh-1 mb-5 text-center font-weight-bold">Training Sites </h2>
+                    </div>
+                    <div class="col-lg-12 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-2">
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img src="assets/img/EMCM_Hospital.png" alt="EMCM Hospital" class="img-thumbnail">
+                                        <h3 class="font-alt">Einstein Medical Center Montgomery</h3>
+                                        <p class="text-muted mb-0">Einstein Medical Center Montgomery (EMCM) is located on 87 acres in East Norriton, PA. EMCM is a new facility that was built and opened in 2012 to expand access to care within Middle Montgomery County. It is licensed for 171 beds, featuring 22 ICU beds, 20 maternity beds, and a 9-bed Level III NICU aligned to provide neonatal, newborn, and pediatric emergency services in a unique alliance with the Children's Hospital of Philadelphia (CHOP). EMCM also has a 41-bay Emergency Department with an additional 20-patient ED Observation Unit. EMCM brings exceptional clinical and academic expertise to a diverse patient population.</p>
+                                        <p class="text-muted mt-2">Rotations Completed Here: EM, MICU, Radiology/ED Ultrasound, Ortho, and OBGYN.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img src="assets/img/St.Christopher_Hospital.png" alt="St. Christopher's Hospital" class="img-thumbnail">
+                                        <h3 class="font-alt">St. Christopher's Hospital for Children</h3>
+                                        <p class="text-muted mb-0">St. Christopher's Hospital for Children is a pediatric acute care hospital located in Philadelphia, Pennsylvania. It is one of three Level 1 Pediatric Trauma Centers in the state of Pennsylvania. The hospital has 188 beds and is affiliated with both the Drexel University College of Medicine and the Temple University School of Medicine. The hospital provides comprehensive pediatric specialties and subspecialties to pediatric patients aged 0–21 throughout eastern Pennsylvania and is one of the oldest full-service hospitals in the United States totally dedicated to the care of children. St Christopher’s sees 75,000 pediatric ED visits per year and is the only exclusive pediatric burn unit in the region.</p>
+                                        <p class="text-muted mt-2">Rotations Completed Here: Peds EM.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5"> <!-- removed "mb-md-0" -->
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img src="assets/img/PlymouthCommunityAmbulance.png" alt="Plymouth Community Ambulance Association" class="img-thumbnail">
+                                        <h3 class="font-alt">Plymouth Community Ambulance Association</h3>
+                                        <p class="text-muted mb-0">Plymouth Ambulance, known as Montgomery County Medic 308, responds to an average of 15,000 emergency calls for service annually. This call volume makes Plymouth Ambulance the busiest ambulance squad in Montgomery County. It is located within 10 minutes of Einstein Montgomery. Einstein is a primary destination facility.</p>
+                                        <p class="text-muted mt-2">Rotations Completed Here: EMS.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img src="assets/img/TJUH.png" alt="Thomas Jefferson University Hospital" class="img-thumbnail">
+                                        <h3 class="font-alt">Thomas Jefferson University Hospital</h3>
+                                        <p class="text-muted mb-0">Thomas Jefferson University Hospital has been an accredited Level 1 Regional Resource Trauma Center in Philadelphia and a referral center for multiple suburban communities and trauma centers in the region to treat a wide variety of trauma-related conditions including burn. The burn center rounds out a complement of surgical and trauma services offered at Jefferson, as well as outpatient acute care. It is among few programs of its kind in the Delaware Valley to be located in a Level 1 Trauma Center where emergency cases can be transported around-the-clock from the scene or from other hospitals. It is also one of only a few burn facilities in the area to be affiliated with an academic medical center, giving our residents an excellent educational experience.</p>
+                                        <p class="text-muted mt-2">Rotations Completed Here: Burn ICU.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5 mb-md-0">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <img src="assets/img/EinsteinPhiladelphia.png" alt="Einstein Medical Center Philadelphia" class="img-thumbnail">
+                                        <h3 class="font-alt">Einstein Medical Center Philadelphia</h3>
+                                        <p class="text-muted mb-0">Located in North Philadelphia, this is one of the busiest Level 1 Trauma Center in city. The hospital serves a diverse urban population including many patients who are from underserved backgrounds. The annual ED census at EMCP is around 100,000 patients. Its designation as a pediatric receiving hospital ensures that the emergency department takes care of many sick and traumatically-injured kids.</p>
+                                        <p class="text-muted mt-2">Rotations Completed Here: Trauma/TICU.</p>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="col-md-6">
+                                    <div class="text-center">
+                                        <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Children's Hospital of Philadelphia</h3>
+                                        <p class="text-muted mb-0">Tox?</p>
+                                    </div>
+                                </div>-->
+                            </div>
+                            <!--
+                            <div class="row gx-5">
+                                <div class="col-md-6">
+                                    <div class="text-center">
+                                        <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Will's Eye</h3>
+                                        <p class="text-muted mb-0">Optho?</p>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Learners of Today; Leaders of Tomorrow-->
+        <aside id="clinicalcurriculum" class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="h2 fs-1 text-white mb-4">Learners of Today</div>
+                        <div class="h2 fs-1 text-white"> <hr style="height: 0.2rem;"></div>
+                        <div class="h2 fs-1 text-white mt-4">Leaders of Tomorrow</div>
+                        <!--<img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />-->
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Clinical Curriculum section-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-12 mb-0 mb-lg-0">
+                        <h2 class="display-5 lh-1 mb-5 text-center font-weight-bold">Clinical Curriculum</h2>
+                    </div>
+                    <div class="col-lg-12 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-2">
+                            <div class="row gx-5">
+                                <div class="col-md-4 mb-5">
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">PGY-1</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <hr>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-0">Interns learn the foundations of emergency medicine and develop their approach to patient care. First year residents will:</p>
+                                        <ul class="text-muted mb-0">
+                                            <li>Complete BLS/ACLS/PALS/ATLS</li>
+                                            <li>Gain exposure to the entire spectrum of medicine through off-service rotations</li>
+                                            <li>Develop comfort managing stable and unstable patients under the direct supervision of attendings.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-justify">
+                                        <hr>
+                                    </div>
+                                    <div class="text-muted mb-0">
+                                        <ul>
+                                            <li>Orientation: 1 block</li>
+                                            <li>Emergency medicine*: 6 blocks</li>
+                                            <li>Pediatric EM**: 1 block</li>
+                                            <li>Radiology*/ED Ultrasound*: 1 block</li>
+                                            <li>OB/GYN*: 1 block</li>
+                                            <li>MICU: 1 block</li>
+                                            <li>Anesthesia: 1 block</li>
+                                            <li>Ortho*/EMS***: 1 block</li>
+                                            <li>Vacation: 1 block</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-5">
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">PGY-2</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <hr>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-0">Residents spend the majority of this year in the emergency department and the critical care units. Second year residents will:</p>
+                                        <ul class="text-muted mb-0">
+                                            <li>manage all medical and surgical resuscitations with attending supervision</li>
+                                            <li>perform necessary procedures as well as airway management</li>
+                                            <li>learn and improve their own personal approach to emergency patients</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-justify">
+                                        <hr>
+                                    </div>
+                                    <div class="text-muted mb-0">
+                                        <ul class="text-muted mb-0">
+                                            <li>Emergency Medicine*: 8 blocks</li>
+                                            <li>Pediatric EM**: 1 block</li>
+                                            <li>Cardiology*: 1 block</li>
+                                            <li>Trauma (ICU)*****: 1 block</li>
+                                            <li>Burn (ICU)****: 1 block</li>
+                                            <li>Elective: 1 block</li>
+                                            <li>Vacation: 1 block</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-5">
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">PGY-3</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <hr>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-0">Residents spend their final year assuming the role of clinical leader in the emergency department. Third year residents will:</p>
+                                        <ul class="text-muted mb-0">
+                                            <li>learn how to manage the flow of the department</li>
+                                            <li>treat and manage multiple critical patients</li>
+                                            <li>suprvise junior residents and medical students</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-justify">
+                                        <hr>
+                                    </div>
+                                    <div class="text-muted mb-0">
+                                        <ul class="text-muted mb-0">
+                                            <li>Emergency Medicine*: 9 blocks</li>
+                                            <li>NICU*: 1 blocks</li>
+                                            <li>MICU*: 1 block</li>
+                                            <li>Trauma (ICU)*****: 1 block</li>
+                                            <li>Administration: 1 block</li>
+                                            <li>Vacation: 1 block</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row gx-5">
+                                <div class="col-md-12">
+                                    <div class="text-muted">
+                                        <p class="mb-0">* = Einstein Medical Center Montgomery</p>
+                                        <p class="mb-0">** = St. Christopher's Hospital for Pediatrics</p>
+                                        <p class="mb-0">*** = Plymouth Community Ambulance</p>
+                                        <p class="mb-0">**** = Thomas Jefferson University Hospital</p>
+                                        <p class="mb-0">***** = Einstien Medical Center Philadelphia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- E=mc^2 Innovation is the heart of our program -->
+        <aside id="didacticcurriculum" class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="h2 fs-1 text-white mb-4">E=mc<sup>2</sup>: Innovation at the heart of medicine</div>
+                        <!--<img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />-->
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--Didactic Curriculum Section -->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-12 mb-0 mb-lg-0">
+                        <h2 class="display-5 lh-1 mb-5 text-center font-weight-bold">Didactic Curriculum</h2>
+                    </div>
+                    <div class="col-lg-12 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-2">
+                            <div class="row gx-5">
+                                <div class="col-md-12 mb-5">
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Core Conference</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">The over-arching hallmarks of this program are excitement about emergency medicine, emphasis on fundamentals, input from the residents to improve the program, their experience, and their wellness/resilience. Residents are excused from clinical duties every Thursday morning to attend 5 hours of educational programming. Lectures and workshops are conducted by emergency medicine faculty, guest faculty, and EM residents from all levels of training. Each Thursday a resident will be responsible for one lecture and one clinical case. Curriculum includes joint lectures with other training programs (e.g. critical care, pediatrics, and internal medicine). The core conference Grand Rounds will be presented by a faculty well-versed or published in the topic.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Foundations Curriculum</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">The residency incorporates the Foundations curriculum into our Thursday conferences. This year-long flipped classroom curriculum provides level-specific content that builds a comprehensive framework for understanding cardinal presentations, “can’t miss” diagnoses and essential management strategies within the EM Model of Clinical Practice.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Morbidity & Mortaility, Near Miss, or Good Catch</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">This is a weekly conference during which challenging clinical cases are presented, engaging the audience to participate in analyzing the clinical problem and proposing alternative solutions and management strategies.  Such series of lectures trains residents’ judgement and emphasizes that there are often many ways to do patient care--some a little better or worse than others, some equivalent.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Asynchronous Learning</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">Our residents are provided with one hour of weekly online asynchronous learning resources.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Board Review Series</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">We have a dedicated hour every week to review high-yield board examination content and practice board-style multiple choice questions as well as mock oral board examinations run by EM attendings in preparation for the ABEM-certifying written and oral exam. We also participate in the annual ABEM in-service examination.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Team Based Multi-Disciplinary Learning</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-0">Residents of all levels of training participate in monthly multi-disciplinary learning modules which include:</p>
+                                        <ul class="text-muted mb-4">
+                                            <li>Procedures and advanced airway lab</li>
+                                            <li>Simulation including mock codes, resuscitation, and a simulated patient program integrating actors to teach residents the ethics and skills of breaking bad news to patients and their relatives</li>
+                                            <li>Advanced Ultrasound Procedures lab</li>
+                                            <li>EKG workshops</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Sign-out Teaching</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">During shift sign out, senior residents are encouraged to relate one teaching point that they have learned during that shift. EM attendings are encouraged to participate.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Risk Management & Administration</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">In addition to the administration block in PGY-3, residents will be exposed to a series of didactic leactures on administration, leadership, directorship, and risk management throughout the 3-year program. This will prepare our residents to become clinical leaders directly out of residency.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Journal Club</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">This is held one evening every other month at an off-site location. During journal club, residents and faculty connect in an informal setting while learning to read and appraise medical literature critically. Residents (and faculty) are encouraged to keep up with the current EM literature (Annals of Emergency Medicine, Academic Emergency Medicine, American Journal of Emergency Medicine, and Journal of Emergency Medicine). On the odd months, the journal clubs will be topic-based and organized around current evidence to support novel therapies or procedures. This format employs consensus format and provides an important style to incorporate new therapies into a physician or physician group’s practices.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Career Development</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-4">Throughout the 3-year program we have a “Career-Directed Curriculum.” This is a series of didactics which is specific for each year of residency, including topics such as CV workshop, interviewing success skills, job searching, and financial planning.</p>
+                                    </div>
+                                    <div class="text-justify">
+                                        <h3 class="font-alt">Wellness</h3>
+                                    </div>
+                                    <div class="text-justify">
+                                        <p class="text-muted mb-0">Residents will be provided with:</p>
+                                        <ul class="text-muted mb-4">
+            <li>Health and lifestyle coaching</li>
+            <li>Discounted rates for popular gym memberships</li>
+            <li>Resources on financial well-being</li>
+            <li>Residents yearly retreat</li>
+            <li>Mentor-mentee longitudinal program</li>
+            <li>Lectures on wellness and resilience</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Nestled in Montgomery County, a short distance from Philadelphia-->
+        <aside id="wellness" class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="h2 fs-1 text-white mb-4">Nestled in Montgomery County, a short distance from Philadelphia</div>
+                        <!--<img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />-->
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Instagram and Twitter -->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center text-center">
+                    <div class="col-md-6">
+                        <p>Instagram Here on the Left</p>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="twitter-timeline" href="https://twitter.com/EMCM_EM">Tweets by EMCM_EM</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Wellness & Life in MontCo/Philly -->
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-5">
+                        <h2 class="display-4 lh-1 mb-4 text-center">Resident Activities</h2>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Placeholder text....</p>
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <div class="px-5 px-sm-0 mb-5">
+                            <img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." />
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-5">
+                        <h2 class="display-4 lh-1 mb-4 text-center">Montgomery County</h2>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0 text-center">From Valley Forge National Park, the site of George Washington's solder's winter encampment to the King of Prussia Mall, the third largest mall (and the largest retail shopping mall) in the United States, Montgomery county is full of things to do. Elmwood Park Zoo, Legoland, iFLY indoor skydiving, Reach rock climbing, biking and hiking trails in the Norristown Farm Park can all be found here.</p>
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <div class="px-5 px-sm-0 mb-5">
+                            <img class="img-fluid rounded-circle" src="assets/img/ValleyForge.png" alt="Montco attractions" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-5">
+                        <h2 class="display-4 lh-1 mb-4 text-center">Philadelphia</h2>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0 text-center">The distance from Einstein Medical Center Montgomery to Center city is approximately 33 minutes by car. As a result, our residents are able to take advantage of all that Philadelphia has to offer - be it concerts, museums, nightlife, festivals, or the plethora of restaurants to choose from. In fact, some of our residents decide to live even closer to the city so that they can explore it on their off-days.</p>
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <div class="px-5 px-sm-0 mb-5">
+                            <img class="img-fluid rounded-circle" src="assets/img/NickFewings.png" alt="LOVE Sign" />
+                            <!-- Image Credit: Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/s/photos/philadelphia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Director Statements-->
+        <section class="cta" id="statements">
+            <div class="cta-content">
+                <div class="container px-5">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="text-white display-2 lh-1 mb-4 text-center">
+                                Einstein Medical Center Montgomery
+                                <br />
+                            </h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <a class="btn btn-outline-light py-3 px-4 rounded-pill mb-2" style="margin-left:0.5rem;" href="PDStatement/pdstatement.html" target="_blank">Program Director Statement</a>
+                                <a class="btn btn-outline-light py-3 px-4 rounded-pill mb-2" style="margin-left:0.5rem;" href="" target="_blank">Assistant Program Director Statement</a>
+                                <a class="btn btn-outline-light py-3 px-4 rounded-pill mb-2" style="margin-left:0.5rem;" href="" target="_blank">Department Director Statement</a>
+                                <a class="btn btn-outline-light py-3 px-4 rounded-pill mb-2" style="margin-left:0.5rem;" href="DCStatement/dcstatement.html" target="_blank">Department Chair Statement</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- App badge section-->
+        <!--
+        <aside class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="h2 fs-1 text-white mb-4">Nestled in Montgomery County, a short distance from Philadelphia</div>
+                        <!--<img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section class="bg-gradient-primary-to-secondary" id="download">
+            <div class="container px-5">
+                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
+                    <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                </div>
+            </div>
+        </section> -->
+        <!-- Footer-->
+            <div class="container px-5 py-5 text-center">
+                <div class="small" style="color:grey;">
+                    <div class="mb-2"><a href="https://www.einstein.edu/" style="color:grey;">Albert Einstein Healthcare Network - 2021</a>
+                    </div>
+                    <div> <a href="www.google.com" style="color:grey;">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        <!--<footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">Albert Einstein Healthcare Network - 2021 </div>
+                    <div class="mb-2">Template Source: <a href="https://startbootstrap.com/theme/new-age"> Start Bootstrap LLC </a></div>
+                    <div class="mb-2">Template Source License: <a href="https://github.com/startbootstrap/startbootstrap-new-age/blob/master/LICENSE">The MIT License </a></div>
+                    <a href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">FAQ</a>-->
+                </div>
+            </div>
+        </footer>
+        <!-- Feedback modal-->
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-0 p-4">
+                        <form>
+                            <div class="form-floating mb-4">
+                                <input class="form-control" id="inputName" type="text" placeholder="Enter your name..." />
+                                <label for="inputName">Name</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+                                <label for="inputEmail">Email address</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input class="form-control" id="inputPhone" type="tel" placeholder="(123) 456-7890" />
+                                <label for="inputPhone">Phone number</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <textarea class="form-control" id="inputMessage" placeholder="Enter your message here..." style="height: 10rem"></textarea>
+                                <label for="inputMessage">Message</label>
+                            </div>
+                            <div class="d-grid"><button class="btn btn-primary rounded-pill py-3" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
